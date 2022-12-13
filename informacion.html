@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png">
+    <title>AVA estetic</title>
+</head>
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <p><a href="index.html">AVA</a></p>
+            </div>
+            <nav>             
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="informacion.html">NOSOTROS</a></li>
+                    <li><a href="tratamientos.html">TRATAMIENTOS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="imagenes/ava2.jpeg" download="AVAestetic.jpeg">DESCARGA</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="informacion">
+            <h1>CONOCÉ MÁS DE NOSOTROS</h1>
+            <h2>Nuestro espacio</h2>
+            <p>Somos una estética ubicada en la ciudad de Rosario, provincia de Santa Fe, que surgió en el año 2021 cuando se liberaron las restricciones de la conocida pandemia del momento. Luego de enfrentar miles de problemas relacionados a la situación sanitaria, pudimos abrir nuestras puertas para ayudar a aquellas personas que deseaban generar un cambio personal.</p>
+            <p>Brindamos distintos tratamientos, con aparatología propia de primeras marcas en el mercado mundial, con el respaldo de profesionales abocados a la medicina estética.</p>
+            <p>Continuamente nos encontramos en el compromiso de buscar las herramientas más innovadoras y eficientes para poder ofrecerles lo mejor a nuestros pacientes.</p>
+            <h2>Nuestros integrantes</h2>
+            <table class="tabla_info">
+                <tr>
+                    <td><img src="imagenes/doc2.png" alt=""></td>
+                    <td>Dr. Joel Ortiz</td>
+                    <td>Especialista en dermatología clínica y estética</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/doc3.png" alt=""></td>
+                    <td>Dra. Lucia Baez</td>
+                    <td>Especialista en cirugía plástica, estética y reparadora</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/doc1.png" alt=""></td>
+                    <td>Lic. Juan Flitz</td>
+                    <td>Especialista en tratamientos corporales</td>
+                </tr>
+                <tr>
+                    <td><img src="imagenes/doc4.png" alt=""></td>
+                    <td>Lic. Emilia Ruiz</td>
+                    <td>Especialista en aparatología corporal</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>© Todos los derechos reservados</p>
+    </footer>
+    <script>
+        window.addEventListener("beforeunload", (salir) => {
+      if (true) {
+          salir.preventDefault();
+          salir.returnValue = "";
+          return "";
+      }
+  });
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
